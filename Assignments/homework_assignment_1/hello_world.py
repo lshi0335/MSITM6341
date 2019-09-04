@@ -1,3 +1,8 @@
+# Lei Shi
+# 0985491
+# MSITM6341
+# 9/1/2019
+
 # Homework 1
 print("Hello World!")
 
