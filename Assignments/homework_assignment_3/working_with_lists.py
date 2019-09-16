@@ -38,4 +38,3 @@ print(grocery_items)
 
 # 9. Print the list of prices
 print(prices)
-
