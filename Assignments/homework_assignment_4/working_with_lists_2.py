@@ -5,8 +5,9 @@
 
 # Assignment 4
 
-# Create a list of odd numbers between 3 and 51
-odd_number = [2*x+1 for x in range(1,26)]
+# Create a list of odd numbers between 3 and 50
+odd_number = list(range(3,50,2))
+
 
 # Print first 5 elements in the odd number list
 for num in range(0,5):
