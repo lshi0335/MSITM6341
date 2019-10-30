@@ -1,3 +1,9 @@
+#Lei Shi
+#Student 0985491
+#Due Date 10/29/2019
+#MSITM 6341
+#Problem of the Day 1
+
 # Import random number library
 import random
 
