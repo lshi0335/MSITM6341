@@ -25,10 +25,12 @@ while order_active:
     # Prompt for order item
     item = input('Enter an item: ')
     if item == 'N':
-        break
+        order_active = False
+        # break ## Alternatively use break
     else:
         customer_order.append(item)
 
+# Calculate total price
 total_price = 0 # Inital order total is 0
 for item in customer_order:
    if item in menu_dictionary.keys():
