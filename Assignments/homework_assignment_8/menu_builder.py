@@ -33,6 +33,7 @@ def add_menu_item(menu):
         cost = ask_user_for_menu_item_cost()
         
         if item_name in menu:
+        # If an item already exists in the menu, print warning without updating its cost
             print("WARNING: Item exists")
         else:
             menu[item_name] = cost
@@ -51,5 +52,6 @@ def add_menu_item(menu):
         print("Item Name: " + item_name + " Cost: " + "{0:.1f}".format(float(cost)))
     print("-----------------------------------------")
 
+# Test run the function
 add_menu_item(menu = menu_items)
 
